@@ -1,0 +1,102 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.main { 
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+footer {
+  display: flex;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 70%;
+  height: 50%;
+  margin-left: 20%;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.description {
+  line-height: 1;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: blue;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  margin-right: 2%;
+}
+
+.button2 {
+  border-radius: 4px;
+  background-color: indigo;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 2%;
+  margin-top: 1rem;
+}
+
+.proposalCard {
+  width: fit-content;
+  margin-top: 0.25rem;
+  border: black 2px solid;
+  flex: 1;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
